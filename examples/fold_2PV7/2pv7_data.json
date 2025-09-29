@@ -1,0 +1,25 @@
+{
+  "dialect": "alphafold3",
+  "version": 3,
+  "name": "2PV7",
+  "sequences": [
+    {
+      "protein": {
+        "id": [
+          "A",
+          "B"
+        ],
+        "sequence": "GMRESYANENQFGFKTINSDIHKIVIVGGYGKLGGLFARYLRASGYPISILDREDWAVAESILANADVVIVSVPINLTLETIERLKPYLTENMLLADLTSVKREPLAKMLEVHTGAVLGLHPMFGADIASMAKQVVVRCDGRFPERYEWLLEQIQIWGAKIYQTNATEHDHNMTYIQALRHFSTFANGLHLSKQPINLANLLALSSPIYRLELAMIGRLFAQDAELYADIIMDKSENLAVIETLKQTYDEALTFFENNDRQGFIDAFHKVRDWFGDYSEQFLKESRQLLQQANDLKQG",
+        "modifications": [],
+        "unpairedMsa": "",
+        "pairedMsa": "",
+        "templates": []
+      }
+    }
+  ],
+  "modelSeeds": [
+    1
+  ],
+  "bondedAtomPairs": null,
+  "userCCD": null
+}
