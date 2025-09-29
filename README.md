@@ -4,6 +4,16 @@ This is a guide and repo to get you started on using AF3 on vanda efficiently. F
 
 Currently an apptainer container used to run AF3 can be found on Vanda cluster
 
+To use, for example from your Vanda home directory,
+
+git clone https://github.com/sansans/nusaf3.git af3 
+
+cd af3
+
+mkdir code ; cd code
+
+cp -r /home/svu/alphafold/alphafold3 code
+
 ## Files and location
 
 Apptainer image 
