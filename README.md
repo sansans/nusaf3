@@ -25,7 +25,7 @@ Data3
 AF3 Code 
 >/home/svu/alphafold/alphafold3
 
-Request from Google the alphafold3 parameters (the file af3.bin.zst) . Believe this is fingerprinted so do follow terms of condition by Google.
+Request from Google the alphafold3 parameters (the file af3.bin.zst) . Believe this is fingerprinted so do follow terms of condition by Google. From Alphafold3  github - [parameter request form](https://forms.gle/svvpY4u2jsHEwWYS6).
 
 ## To test interactively
 
