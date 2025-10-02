@@ -10,7 +10,7 @@ git clone https://github.com/sansans/nusaf3.git af3
 
 cd af3
 
-mkdir code ; cd code
+mkdir code 
 
 cp -r /home/svu/alphafold/alphafold3 code
 
