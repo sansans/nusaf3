@@ -8,7 +8,7 @@ CODE_DIR=${AF3_RESOURCES_DIR}/code
 AF3_IMAGE=/app1/common/singularity-img/hopper/alphafold/alphafold301.sif
 WEIGHTS=${AF3_RESOURCES_DIR}/weights
 DB=/home/svu/alphafold/data3
-DBP=/pscratch/biodata/alphafold/data3
+DBP=/home/svu/alphafold/data3
 #export AF3_DATABASES_DIR=/home/svu/alphafold/data3
 # Either don't use AF3_PARAMETERS or choose either --norun_inference or --norun_data_pipeline
 export AF3_PARAMETERS="--norun_inference"
@@ -35,7 +35,7 @@ for prot_dir in "$BASE_DIR"/*/; do
   jobid1=$(qsub <<EOF
 #!/bin/bash
 #PBS -N af3p_${name}
-#PBS -l select=1:ncpus=16:mem=124gb
+#PBS -l select=1:ncpus=10:mem=96gb
 #PBS -l walltime=08:00:00
 #PBS -q auto_free
 #PBS -j oe
